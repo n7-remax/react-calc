@@ -1,0 +1,54 @@
+* {
+    outline: none;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-result {
+    padding: 5px;
+    height: 100px;
+    background: white;
+    margin: 5px;
+    font-size: 18px;
+    overflow: auto;
+}
+
+.calculator-result-span {
+    word-break: break-all;
+}
+.calculator .container {
+    width: 240px;
+    height: 420px;
+    background: rgb(168, 224, 241);
+    padding: 20px;
+}
+
+.calculator-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    background: white;
+    border: solid 1px black;
+    transition: 0.2s;
+    font-size: 18px;
+}
+.btn:hover {
+    background: gainsboro;
+    transition: 0.2s;
+}
+.btn-action {
+    border: solid 1px red;
+}
+.btn-equally {
+    flex: 1;
+    background: goldenrod;
+}
